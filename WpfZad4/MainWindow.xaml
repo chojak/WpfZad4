@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfZad4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Canvas x:Name="Canvas" MouseDown="Canvas_MouseDown" MouseMove="Canvas_MouseMove">
+        Title="MainWindow" Height="450" Width="800"
+        MouseDown="Canvas_MouseDown" MouseMove="Canvas_MouseMove" MouseUp="Canvas_MouseUp" KeyDown="KeyDownEvent">
+    <Canvas x:Name="Canvas">
         <Canvas.Background>
             <SolidColorBrush Color="White" Opacity="0"/>
         </Canvas.Background>
