@@ -45,7 +45,7 @@ namespace WpfZad4
                 currentRectangle.StrokeThickness = 1;
 
                 Canvas.Children.Add(currentRectangle);
-                Canvas.SetTop(currentRectangle, basePosition.Y);
+                Canvas.SetTop(currentRectangle, basePosition.Y); 
                 Canvas.SetLeft(currentRectangle, basePosition.X);
             }    
         }
@@ -60,9 +60,6 @@ namespace WpfZad4
             {
                 Canvas.CaptureMouse();
                 var cursorPosition = e.MouseDevice.GetPosition(Canvas);   
-
-                var currentX = Canvas.GetLeft(currentRectangle);
-                var currentY = Canvas.GetTop(currentRectangle);
 
                 if (cursorPosition.X - basePosition.X >= 0)
                 {

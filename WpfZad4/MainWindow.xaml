@@ -11,7 +11,5 @@
         <Canvas.Background>
             <SolidColorBrush Color="White" Opacity="0"/>
         </Canvas.Background>
-
-        
     </Canvas>
 </Window>
